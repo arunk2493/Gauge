@@ -1,0 +1,14 @@
+{
+  "name": "gauge-taiko-template",
+  "version": "0.0.1",
+  "description": "Starter template for writing JavaScript tests for Gauge",
+  "scripts": {
+    "test": "gauge run specs",
+    "singletest": "gauge run specs/taikomock.spec",
+    "parallel": "gauge run specs --parallel"
+  },
+  "dependencies": {
+    "taiko": "latest",
+    "taiko-android": "^0.2.0"
+  }
+}
